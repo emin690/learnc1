@@ -4,8 +4,9 @@ int main() {
     printf("Enter three numbers:\n");
     scanf("%d %d %d", &x, &y, &z);
 
-    float average = (x + y + z) / 3.0;  // 3.0 ile float bölme
-    printf("Average: %.2f\n", average); // 2 basamaklı gösterim
+    float average = (x + y + z) / 3.0; 
+    printf("Average: %.2f\n", average); 
 
     return 0;
 }
+
